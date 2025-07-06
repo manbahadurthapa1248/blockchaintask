@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "canisters": {
+    "finalproj_backend": {
+      "type": "rust",
+      "package": "finalproj_backend",
+      "main": "src/finalproj_backend/src/lib.rs",
+      "candid": "src/finalproj_backend/finalproj_backend.did"
+    },
+    "finalproj_frontend": {
+      "type": "assets",
+      "source": ["dist"]
+    }
+  },
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:4943",
+      "type": "ephemeral"
+    },
+    "ic": {
+      "providers": ["https://ic0.app"],
+      "type": "persistent"
+    }
+  }
+}
