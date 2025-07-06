@@ -20,4 +20,5 @@ npm run build
 ```
 ## ✨ Author
 
+**Man Bahadur Thapa**
 **Nikhil Sharma**
